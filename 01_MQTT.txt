@@ -1,0 +1,13 @@
+MQTT - Protocolo de mensajería pub/sub
+Broquer - Servidor de mensajes (es el intermediario)
+QoS (Quality of Service) - Asegura que lleguen los mensajes
+	-Centrado
+	-Confíable
+	-Persistente
+Trabaja en el puero 1883
+Se puede agregar Seguridad
+Temas es una cadena que usa el broker para filtrar mensajes y decidir a qué sub enviar mensajes
+	miCasa / plantaBaja / sala / temperatura
+Comodines
+# multi nivel casa/#
++ casa/+/temperatura
