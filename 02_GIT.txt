@@ -1,0 +1,11 @@
+Crear Branch
+  git branch [nueva_rama]
+ 
+Cambiar Branch
+  git checkout [rama]
+
+Mezclar Ramas (mezcla en la rama actual)
+  git merge [rama] [DEV]
+  
+Rebase o apilar (mezcla hacia la rama que quieres tener todo)
+  git rebase [rama] [MAIN]
