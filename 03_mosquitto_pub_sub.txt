@@ -1,0 +1,25 @@
+Instalar mosquitto
+	sudo apt install mosquitto -y 
+
+Instalar cliente
+	sudo apt install mosquitto-clients -y
+
+Ver si está corriendo
+	netstat -an | grep 1883
+
+Subscibirse
+	mosquitto_sub -h [IP] -i [ID] -t [TEMA] -q [#QoS]
+
+Publicar
+	mosquitto_pub -h [IP] -i [ID] -t [TEMA] -q [#QoS] -m "[Mensaje]"
+
+*La IP puede ser local (localhost/127.0.0.1)
+*Los ID's deben de ser diferentes
+*QoS va del 1 al 4 pero debes usar el 2
+*Se deben de envíar JSON's
+*Para envía comillas dentro de comillas se hacen con backslash "{\"ID\":\"Daniel\"}"
+
+Ver la IP Dinámica de HiveMQ
+	nslookup broker.hivemq.com
+
+ 
