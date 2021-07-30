@@ -1,2 +1,2 @@
-Pull request a si git con nombre y usario de git URL
-Leer mosquito
+-x-Pull request a si git con nombre y usario de git URL
+-x-Leer mosquito
