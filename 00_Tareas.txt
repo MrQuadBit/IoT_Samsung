@@ -1,5 +1,5 @@
 -x-Pull request a si git con nombre y usario de git URL
 -x-Leer mosquito
 Leer sigueinte lección
-Hacer pull con tu nombre
+-x-Hacer pull con tu nombre
 Hacer dashboard
