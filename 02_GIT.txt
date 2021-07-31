@@ -26,3 +26,10 @@ Revertir en local
   git reset HEAD~1 (revierte un cambio)
 Revertir en remoto
   git revert HEAD (Revierte el cambio actual)
+
+Copiar varios commits sobre HEAD
+  git cherry-pick [commit1] [commit2] ...
+
+Rebase intereactivo
+git rebase -b [commit]/[HEAD~4] (Tienen que ser varios commit por eso el ~4)
+
