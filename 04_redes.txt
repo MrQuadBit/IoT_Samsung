@@ -1,0 +1,22 @@
+Modelo OSI:
+  lvl-7 Aplicación
+  lvl-6 Presentación
+  lvl-5 Sesión
+  lvl-4 Transporte
+  lvl-3 Red
+  lvl-2 Enlace de datos
+  lvl-1 Físico
+  
+Protocolos en IoT
+  TCP/IP
+  HTTP
+  MQTT
+  Websocket
+  
+TCP/IP:
+  Aplicación - 7/6/5 - Message
+  Transporte - 5/4   - Segment  - Dirección del puerto
+  Internet   - 3     - Datagram - Dirección Lógica
+  Red Acceso - 3/2   - Frame    - Dirección Física
+  Física     - 1     - Bits
+  
