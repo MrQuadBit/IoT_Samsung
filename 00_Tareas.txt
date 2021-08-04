@@ -3,3 +3,7 @@
 Leer sigueinte lección
 -x-Hacer pull con tu nombre
 Hacer dashboard
+Medir temperatura computadora
+Encontrar default gateway
+Abrir puertos de la computadora 1880 y 1883 (revisar en el anti virus)
+Probar puertos (https://www.yougetsignal.com/tools/open-ports/)
