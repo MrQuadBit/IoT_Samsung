@@ -1,0 +1,34 @@
+Agua = Carga (Coulomb)
+Presión = Voltaje (Volts)
+Flujo = Corriente (Amperes)
+Ancho de Manguera = Resistencia (ohms)
+
+V = I * R
+1V = 1A * 1H
+
+TX -> Transmite
+RX <- Recibe
+
+Dispositivos pasivos y activos
+	Pasivos no son capaces de controlar voltaje o corriente
+		-Resistencia
+		-Capacitor (condensador)
+		-Inductancia
+	Activos son capaces de controlar y distribuir voltaje o corriente
+		-Circuito integrado
+		-Relevador
+		-Transistor
+		-LED
+
+Sensores:
+	Analógicos (son ondas o valores finitos)
+		-Sensor de gas
+	Digitales (son binarios o valores discretos)
+		-On/Off
+		-One wire
+		-Serial
+		-Paralela (8 pines para un byte)
+		-I^2c
+		-SPI (serial port interface)
+
+La electricidad se cierra de Positivo a Negativo
